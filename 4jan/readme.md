@@ -1,4 +1,4 @@
-                                 ASSIGNMENT
+                                  ASSIGNMENT
 1---> plate.
 2---> bento
 3---> fancy
