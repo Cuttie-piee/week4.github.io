@@ -1,0 +1,29 @@
+body{
+    background: #007065;
+}
+div{
+    border-bottom: 200px solid #00A790;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+div:before,
+div:after{
+    content: '';
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+div:before{
+    top: -100px;
+    border-bottom: 200px solid #f5C181;
+}
+div:after{
+    top: -200px;
+    border-bottom: 200px solid #FFEECF;
+}
